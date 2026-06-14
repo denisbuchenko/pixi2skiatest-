@@ -1,0 +1,21 @@
+{
+  "name": "pixi-skia-pdf-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "canvaskit-wasm": "^0.40.0",
+    "pdf-lib": "^1.17.1",
+    "pixi.js-legacy": "7.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  }
+}
