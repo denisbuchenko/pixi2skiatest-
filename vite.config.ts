@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
-  base: '/pixi2skiatest/',
+  base: '/pixi2skiatest-/',
   resolve: {
     alias: {
       'pixi.js-legacy': fileURLToPath(new URL('./node_modules/pixi.js-legacy/dist/pixi-legacy.mjs', import.meta.url)),
